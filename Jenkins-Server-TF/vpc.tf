@@ -71,3 +71,12 @@ resource "aws_security_group" "security-group" {
     Name = var.sg-name
   }
 }
+
+# resource "aws_key_pair" "my-key-pair" {  
+#     key_name = "example-key-pair" 
+#     public_key = file("./key/keys.pub")
+
+#     tags = {
+#         Name = "my-key-pair"
+#         }
+# }
